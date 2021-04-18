@@ -8,7 +8,7 @@ using namespace std;
 class Akun{
     private:
         int sandi_masuk(){
-            return 1111;
+            return 4;
         }
     public:
         int conf_sandi(){
@@ -47,14 +47,15 @@ int main(int argc, char const *argv[])
 
     header();
 
-    cout<<"Masuk Dengan Akun anda: ";
+    cout<<"Untuk Menjaga Keamanan Situs,Mohon isi pertanyaan berikut: ";
+    cout<<"Berapakah 2x2?";
     cin>>inputanPass;
 
     while(inputanPass==sandi_masuk.conf_sandi()){
         cout<<"Berikut Ini Daftar Laptop yang Tersedia"<<endl;
         printMenu();
 
-        cout<<" Pilih Merk Laptop Dengan Memasukkan Kode Laptop: ";
+        cout<<"Pilih Merk Laptop Dengan Memasukkan Kode Laptop: ";
         cin>>kode;
         cout<<"\n";
         cout<<" Spesifikasi processornya apa?"<<endl;
