@@ -122,6 +122,8 @@ int main(int argc, char const *argv[])
     cout<<"Harga Per satu Laptop: "<<harga<<endl;
     cout<<"Total Harga yang anda harus bayarkan adalah Rp"<<total<<endl;
     cout<<"\n";
+        
+    return 0;
     }
     return 0;
 }
